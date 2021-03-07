@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../Layout";
-import DetailFeature from "./DetailFeature";
+import Layout from "../../Layout";
+import DetailFeature from "../DetailFeature";
 
 const Details = () => (
   <div className="my-16">
