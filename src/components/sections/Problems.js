@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../../Layout";
 import BenefitCardContainer from "../BenefitCardContainer";
 import TestimonialDetails from "../TestimonialDetails";
-import TestimonialPerson from "../TestimonialPerson";
 
 const Problems = () => (
   <div className="bg-blue-100 w-full py-16 text-center">

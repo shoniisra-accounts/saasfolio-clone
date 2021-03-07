@@ -1,4 +1,5 @@
 import React from "react";
+import ListItem from "./ListItem";
 
 const DetailFeature = ({ right }) => (
   <div className={`${right ? "flex-col-reverse" : "flex-col"}`}>
@@ -15,28 +16,9 @@ const DetailFeature = ({ right }) => (
         websites again” is a benefit. Users don’t care about your product, they
         only care about what’s in it for them.
       </div>
-      <div className="flex items-center">
-        <div className="w-6 mr-4">
-          <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/check.png" />
-        </div>
-        <div className="text-md text-gray-700">Summarize the content above</div>
-      </div>
-
-      <div className="flex items-center">
-        <div className="w-6 mr-4">
-          <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/check.png" />
-        </div>
-        <div className="text-md text-gray-700">
-          For visitors that don't like to read
-        </div>
-      </div>
-
-      <div className="flex items-center">
-        <div className="w-6 mr-4">
-          <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/check.png" />
-        </div>
-        <div className="text-md text-gray-700">And just scan the page</div>
-      </div>
+      <ListItem title="Summarize the content above" />
+      <ListItem title="For visitors that don't like to read" />
+      <ListItem title="And just scan the page" />
     </div>
   </div>
 );
