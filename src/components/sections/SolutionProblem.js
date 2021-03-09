@@ -6,23 +6,23 @@ import TestimonialDetails from "../TestimonialDetails";
 const SolutionProblem = () => (
   <div className="bg-yellow-100 py-20">
     <Layout>
-      <div className="w-3/5 mx-auto">
+      <div className="w-3/5 lg:w-2/5 mx-auto">
         <img
           className="w-full"
           src="https://www.landingkit.com/templates/saasfolio/tailwind/img/features-drawing-moonlanding.png"
         />
       </div>
       <div className="text-center">
-        <div className="font-bold text-2xl my-2">
+        <div className="font-bold text-2xl md:text-4xl md:leading-normal my-2">
           Or, ask if your visitor wants to solve problem X today
         </div>
-        <div className="text-md text-gray-700">
+        <div className="text-md md:text-xl md:mt-4 text-gray-700">
           Explain how your solution will solve this problem and ask them to
           start a free trial, or any other low-key CTA they could take.
         </div>
-        <div className="flex justify-between mt-8">
+        <div className="flex mt-8 mx-auto w-80">
           <CustomButton
-            classes="text-black"
+            classes="text-black mr-6"
             color="bg-yellow-400 border-yellow-600"
             small
             title="Clear CTA Text"

@@ -59,7 +59,7 @@ const Pricing = () => {
           Choose between this pricing block, or end the page with a CTA Block as
           shown below. Choose either one.
         </div>
-        <div className="flex flex-wrap">
+        <div className="flex flex-col items-center lg:flex-row lg:items-start">
           {pricingDetails.length > 0 &&
             pricingDetails.map((pricingDetail) => (
               <PriceCard details={pricingDetail} />

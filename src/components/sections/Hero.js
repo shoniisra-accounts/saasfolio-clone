@@ -22,8 +22,16 @@ const Hero = () => (
       Reduce Risk: 14 Day Trial
     </div>
 
-    <div className="relative w-64 h-64">
-      <div className="absolute bg-hero-popcorn inset-0 w-full h-full object-cover object-center"></div>
+    <div className="flex justify-between relative w-4/5 mx-auto my-10">
+      <img
+        className="w-2/5 md:1/2"
+        src="https://www.landingkit.com/templates/saasfolio/tailwind/img/hero-drawing-popcorn.png"
+      />
+      <img
+        className="w-2/5 md:1/2"
+        src="https://www.landingkit.com/templates/saasfolio/tailwind/img/hero-drawing-mail.png"
+      />
+      {/* <div className="absolute bg-hero-popcorn inset-0 w-full h-full object-cover object-center"></div> */}
     </div>
 
     <Companies />

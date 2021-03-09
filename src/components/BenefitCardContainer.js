@@ -2,7 +2,7 @@ import React from "react";
 import BenefitCard from "./BenefitCard";
 
 const BenefitCardContainer = () => (
-  <div className="mt-24">
+  <div className="mt-24 lg:my-2 flex flex-col lg:flex-row lg:justify-evenly lg:items-center">
     <BenefitCard
       title="First main benefit of your product"
       subTitle="Brief explanation of why and how this benefit will help your customers"

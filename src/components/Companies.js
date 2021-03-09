@@ -5,7 +5,7 @@ const Companies = () => (
     <div className="text-md font-semibold text-center mb-6">
       Join 1,000+ software businesses who use SaasFolio daily
     </div>
-    <div className="flex justify-center mb-6">
+    <div className="flex justify-center mb-6 w-72 mx-auto">
       <ul className="max-w-3xl flex">
         <li className="w-10 mx-3">
           <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/logos/logo-1.png" />
@@ -22,16 +22,16 @@ const Companies = () => (
         <li className="w-10 mx-3">
           <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/logos/logo-5.png" />
         </li>
-        <li className="w-10 mx-3">
+        <li className="w-10 mx-3 hidden md:inline">
           <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/logos/logo-6.png" />
         </li>
-        <li className="w-10 mx-3">
+        <li className="w-10 mx-3 hidden md:inline">
           <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/logos/logo-7.png" />
         </li>
-        <li className="w-10 mx-3">
+        <li className="w-10 mx-3 hidden md:inline">
           <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/logos/logo-8.png" />
         </li>
-        <li className="w-10 mx-3">
+        <li className="w-10 mx-3 hidden md:inline">
           <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/logos/logo-9.png" />
         </li>
       </ul>

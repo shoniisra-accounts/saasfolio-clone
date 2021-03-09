@@ -10,41 +10,45 @@ const Testimonials = () => (
         say.
       </div>
       <div>
-        <TestimonialDetails
-          personName="Customer Name, CEO of Company Name"
-          personImageURL="https://www.landingkit.com/templates/saasfolio/tailwind/img/avatar/avatar-1.png"
-          content="Powerfull and relevant testimonial of Customer X. This content should
+        <div className="flex flex-col items-center md:flex-row md:justify-center">
+          <TestimonialDetails
+            personName="Customer Name, CEO of Company Name"
+            personImageURL="https://www.landingkit.com/templates/saasfolio/tailwind/img/avatar/avatar-1.png"
+            content="Powerfull and relevant testimonial of Customer X. This content should
       focus on the result the product had for this customer or answer a doubt
       your potential customer could have."
-        />
-        <TestimonialDetails
-          personName="Customer Name, CEO of Company Name"
-          personImageURL="https://www.landingkit.com/templates/saasfolio/tailwind/img/avatar/avatar-1.png"
-          content="Powerfull and relevant testimonial of Customer X. This content should
+          />
+          <TestimonialDetails
+            personName="Customer Name, CEO of Company Name"
+            personImageURL="https://www.landingkit.com/templates/saasfolio/tailwind/img/avatar/avatar-1.png"
+            content="Powerfull and relevant testimonial of Customer X. This content should
       focus on the result the product had for this customer or answer a doubt
       your potential customer could have."
-        />
+          />
+        </div>
 
-        <div className="w-4/5 mx-auto my-8">
+        <div className="w-4/5 md:w-64 mx-auto my-8">
           <img
             className="w-full"
             src="https://www.landingkit.com/templates/saasfolio/tailwind/img/drawing-friends.png"
           />
         </div>
-        <TestimonialDetails
-          personName="Customer Name, CEO of Company Name"
-          personImageURL="https://www.landingkit.com/templates/saasfolio/tailwind/img/avatar/avatar-1.png"
-          content="Powerfull and relevant testimonial of Customer X. This content should
+        <div className="flex flex-col items-center md:flex-row md:justify-center">
+          <TestimonialDetails
+            personName="Customer Name, CEO of Company Name"
+            personImageURL="https://www.landingkit.com/templates/saasfolio/tailwind/img/avatar/avatar-1.png"
+            content="Powerfull and relevant testimonial of Customer X. This content should
       focus on the result the product had for this customer or answer a doubt
       your potential customer could have."
-        />
-        <TestimonialDetails
-          personName="Customer Name, CEO of Company Name"
-          personImageURL="https://www.landingkit.com/templates/saasfolio/tailwind/img/avatar/avatar-1.png"
-          content="Powerfull and relevant testimonial of Customer X. This content should
+          />
+          <TestimonialDetails
+            personName="Customer Name, CEO of Company Name"
+            personImageURL="https://www.landingkit.com/templates/saasfolio/tailwind/img/avatar/avatar-1.png"
+            content="Powerfull and relevant testimonial of Customer X. This content should
       focus on the result the product had for this customer or answer a doubt
       your potential customer could have."
-        />
+          />
+        </div>
       </div>
       <div className="my-6">
         <Companies />

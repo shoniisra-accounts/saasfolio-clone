@@ -4,8 +4,8 @@ import CustomButton from "./CustomButton";
 
 const PriceCard = ({ details }) => (
   <div
-    className={`text-center border border-gray-200 rounded-md px-8 ${
-      !details.isPopular && "py-10"
+    className={`text-center border border-gray-200 w-4/5 md:w-3/5 lg:w-1/3 rounded-md px-8 pb-10 ${
+      !details.isPopular ? "py-10" : "shadow-xl transform lg:scale-105 bg-white"
     }  my-4`}
   >
     {details.isPopular && (
