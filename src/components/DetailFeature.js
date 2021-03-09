@@ -7,10 +7,10 @@ const DetailFeature = ({ right }) => (
       right ? "flex-col-reverse" : "flex-col"
     }`}
   >
-    <div className="my-8 w-1/2  px-auto">
+    <div className="my-8 w-4/5 px-auto">
       <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/features-drawing-moonlanding.png" />
     </div>
-    <div className="w-1/2">
+    <div className="w-4/5">
       <div className="text-2xl lg:text-3xl font-medium">
         Now go deeper into what your product offers. But, word it as benefits,
         not as features.
