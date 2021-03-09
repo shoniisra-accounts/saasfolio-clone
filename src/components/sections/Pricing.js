@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../../Layout";
+// import Layout from "../../Layout";
 import PriceCard from "../PriceCard";
 
 const Pricing = () => {
@@ -51,21 +51,21 @@ const Pricing = () => {
   ];
   return (
     <div className="py-16 text-center">
-      <Layout>
-        <div className="font-extrabold text-3xl leading-normal my-4">
-          How much is a high converting landing page worth to you?
-        </div>
-        <div className="text-gray-500 text-xl my-4">
-          Choose between this pricing block, or end the page with a CTA Block as
-          shown below. Choose either one.
-        </div>
-        <div className="flex flex-col items-center lg:flex-row lg:items-start">
-          {pricingDetails.length > 0 &&
-            pricingDetails.map((pricingDetail) => (
-              <PriceCard details={pricingDetail} />
-            ))}
-        </div>
-      </Layout>
+      {/* <Layout> */}
+      <div className="font-extrabold text-3xl leading-normal my-4">
+        How much is a high converting landing page worth to you?
+      </div>
+      <div className="text-gray-500 text-xl my-4">
+        Choose between this pricing block, or end the page with a CTA Block as
+        shown below. Choose either one.
+      </div>
+      <div className="flex flex-col items-center lg:flex-row lg:items-start mx-10 xl:px-32 2xl:px-40">
+        {pricingDetails.length > 0 &&
+          pricingDetails.map((pricingDetail) => (
+            <PriceCard details={pricingDetail} />
+          ))}
+      </div>
+      {/* </Layout> */}
     </div>
   );
 };

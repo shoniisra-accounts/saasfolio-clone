@@ -4,11 +4,14 @@ import ListItem from "./ListItem";
 const DetailFeature = ({ right }) => (
   <div
     className={`flex flex-col items-center my-12 md:flex-row md:justify-between md:items-center md:my-10 ${
-      right ? "flex-col-reverse" : "flex-col"
+      right ? "md:flex-row-reverse" : "flex-col"
     }`}
   >
-    <div className="my-8 w-4/5 px-auto">
-      <img src="https://www.landingkit.com/templates/saasfolio/tailwind/img/features-drawing-moonlanding.png" />
+    <div className="my-8 px-4 w-4/5 ">
+      <img
+        className="mx-auto"
+        src="https://www.landingkit.com/templates/saasfolio/tailwind/img/features-drawing-moonlanding.png"
+      />
     </div>
     <div className="w-4/5">
       <div className="text-2xl lg:text-3xl font-medium">

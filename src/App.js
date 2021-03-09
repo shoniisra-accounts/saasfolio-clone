@@ -1,4 +1,3 @@
-import "./App.css";
 import CTA from "./components/sections/CTA";
 import Details from "./components/sections/Details";
 import Footer from "./components/sections/Footer";
