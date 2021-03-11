@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../Layout";
 import CustomButton from "../CustomButton";
 const CTA = () => (
-  <div className="bg-blue-100 w-full py-16 text-center">
+  <div className="bg-custom-blue w-full py-16 text-center">
     <Layout>
       <div className="my-12 flex flex-col items-start lg:flex-row lg:items-center">
         <div className="w-24 mx-auto lg:ml-auto lg:mr-0 ">

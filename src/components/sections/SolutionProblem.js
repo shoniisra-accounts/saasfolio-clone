@@ -4,7 +4,7 @@ import CustomButton from "../CustomButton";
 import TestimonialDetails from "../TestimonialDetails";
 
 const SolutionProblem = () => (
-  <div className="bg-yellow-100 py-20">
+  <div className="bg-custom-yellow py-20">
     <Layout>
       <div className="w-3/5 lg:w-2/5 mx-auto">
         <img

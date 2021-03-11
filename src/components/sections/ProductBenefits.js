@@ -90,7 +90,7 @@ const ProductBenefits = () => {
     },
   ];
   return (
-    <div className="bg-blue-100 py-16">
+    <div className="bg-custom-lightBlue py-16">
       <Layout>
         <div className="font-bold text-3xl my-8 text-center">
           Summarize your main products benefits

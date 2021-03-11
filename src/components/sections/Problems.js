@@ -4,7 +4,7 @@ import BenefitCardContainer from "../BenefitCardContainer";
 import TestimonialDetails from "../TestimonialDetails";
 
 const Problems = () => (
-  <div className="bg-blue-100 w-full py-16 text-center">
+  <div className="bg-custom-blue w-full py-16 text-center">
     <Layout>
       <div className="font-semibold text-2xl my-4">
         Headline that discribes how your product solves a problem your customer
