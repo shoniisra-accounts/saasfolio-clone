@@ -6,7 +6,7 @@ import CustomButton from "../CustomButton";
 const Hero = () => (
   <Layout>
     <div className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight md:leading-normal mt-32 mb-6 max-w-4xl mx-auto lg:mb-16 text-center">
-      Clear headline that explains your products main benefit
+      Pichincha te da la bienvenida a la ruta de los volcanes
     </div>
     <div className="text-xl lg:text-2xl leading-tight text-gray-600 text-center">
       Explain your unique solution in short and how it solves a problem your
